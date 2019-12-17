@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Greatest Chess Games Ever Played</Title>
+        <Title> The Greatest Chess Games Ever Played </Title>
         {this.state.Checkmates.map(Checkmates => (
           <Content
             id={Checkmates.id}

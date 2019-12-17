@@ -3,13 +3,13 @@ import "./style.css";
 
 function Content(props) {
   return (
-    <div className="card">
-      <div className="img-container">
-        <img alt={props.name} src={props.image} />
+    <div className="container">
+      <div className="card special">
+        <img className="card-img-top" src={props.image} alt={props.name} />
+        <div className="card-body">
+          <p className="card-text">{props.name}</p>
+        </div>
       </div>
-      <span onClick={() => props.removeContent(props.id)} className="remove">
-        𝘅
-      </span>
     </div>
   );
 }

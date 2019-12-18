@@ -4,7 +4,7 @@ import "./style.css";
 function Title(props) {
     return (
         <div className="container">
-            <div className="card">
+            <div className="card extra">
                 <div className="card-header">
                 </div>
                 <div className="card-body">

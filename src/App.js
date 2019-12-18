@@ -11,10 +11,10 @@ class App extends Component {
     Checkmates
   };
 
-  // Map over this.state.friends and render a Checkmate component for each friend object
+  // Map over this.state.Checkmates and render a Checkmate component for each friend object
   render() {
     return (
-      <Wrapper>
+      <div>
         <Title> The Greatest Chess Games Ever Played </Title>
         {this.state.Checkmates.map(Checkmates => (
           <Content
@@ -24,7 +24,7 @@ class App extends Component {
             image={Checkmates.image}
           />
         ))}
-      </Wrapper>
+      </div>
     );
   }
 }
